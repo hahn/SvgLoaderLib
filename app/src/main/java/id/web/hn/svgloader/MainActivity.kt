@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         SvgLoader.pluck()
             .with(this)
             .setPlaceHolder(R.mipmap.ic_launcher, R.drawable.ic_launcher_background)
-            .load(url, imageView)//, R.mipmap.ic_launcher, R.mipmap.ic_launcher)
+            .load(url, imageView)
 
     }
 
